@@ -178,7 +178,7 @@ Here's a short example:
     
 ```bash
 # Clone the project, then move into the right directory 
-$ cd ~/FrameworkBenchmarks/deployment/vagrant-development
+$ cd ~/FrameworkBenchmarks/deployment/vagrant-common
 # Turn on the VM. Takes at least 20 minutes
 $ vagrant up
 # Enter the VM, then run a test
@@ -215,7 +215,7 @@ $ vagrant ssh
 ```
 
 ## Vagrant VirtualBox Guest
-Optional: You can automatically update VirtualBox Guest Additions to the current version of VirtualBox that is being used every time you enter 'vagrant up'. This will also allow you to keep all of your vagrant mounts after kernel upgrades in VirtualBox. Run the following one time after 'cd ~/FrameworkBenchmarks/deployment/vagrant-development' (must already have RVM installed):
+Optional: You can automatically update VirtualBox Guest Additions to the current version of VirtualBox that is being used every time you enter 'vagrant up'. This will also allow you to keep all of your vagrant mounts after kernel upgrades in VirtualBox. Run the following one time after 'cd ~/FrameworkBenchmarks/deployment/vagrant-common' (must already have RVM installed):
 ```bash
 # To install the plugin:
 $ vagrant plugin install vagrant-vbguest
